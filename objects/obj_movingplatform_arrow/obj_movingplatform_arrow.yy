@@ -1,9 +1,9 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_movingplatform_arrow",
+  "$GMObject": "",
+  "%Name": "obj_movingplatform_arrow",
   "eventList": [],
   "managed": true,
+  "name": "obj_movingplatform_arrow",
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
@@ -27,6 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
   "solid": false,
   "spriteId": {
     "name": "spr_mp_arrow",

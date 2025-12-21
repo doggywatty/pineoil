@@ -1,7 +1,3 @@
-if obj_music.lap3
-	sprite_index = spr_lapflag2;
-else
-	sprite_index = spr_lapflag;
 y = -sprite_height
 down = true
 movespeed = 2

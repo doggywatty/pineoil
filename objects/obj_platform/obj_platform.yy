@@ -1,9 +1,9 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_platform",
+  "$GMObject": "",
+  "%Name": "obj_platform",
   "eventList": [],
   "managed": true,
+  "name": "obj_platform",
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
@@ -27,6 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
   "solid": false,
   "spriteId": {
     "name": "spr_platform",

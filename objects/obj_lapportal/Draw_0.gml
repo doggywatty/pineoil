@@ -12,8 +12,5 @@ else if sprite_index == spr_pizzaportal_outline
 else
 {
 	draw_self()
-	if (obj_music.lap2)
-		draw_sprite(spr_lap3warning, 0, x, y + wave(-5, 5, 0.5, 5))
-	else
-		draw_sprite(spr_lap2warning, 0, x, y + wave(-5, 5, 0.5, 5))
+	draw_sprite(spr_lap2warning, 0, x, y + wave(-5, 5, 0.5, 5))
 }

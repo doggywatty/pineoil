@@ -1,9 +1,9 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_cheeseslime",
+  "$GMObject": "",
+  "%Name": "obj_cheeseslime",
   "eventList": [],
   "managed": true,
+  "name": "obj_cheeseslime",
   "overriddenProperties": [],
   "parent": {
     "name": "Ememy",
@@ -27,6 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
   "solid": false,
   "spriteId": {
     "name": "spr_slime_move",

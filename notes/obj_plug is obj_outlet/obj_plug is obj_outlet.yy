@@ -1,9 +1,11 @@
 {
-  "resourceType": "GMNotes",
-  "resourceVersion": "1.1",
-  "name": "obj_plug is obj_outlet",
-  "parent": {
-    "name": "Misc",
-    "path": "folders/Objects/Level Structure/Misc.yy",
+  "$GMNotes":"v1",
+  "%Name":"obj_plug is obj_outlet",
+  "name":"obj_plug is obj_outlet",
+  "parent":{
+    "name":"Misc",
+    "path":"folders/Objects/Level Structure/Misc.yy",
   },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
 }

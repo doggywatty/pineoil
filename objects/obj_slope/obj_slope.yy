@@ -1,9 +1,9 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_slope",
+  "$GMObject": "",
+  "%Name": "obj_slope",
   "eventList": [],
   "managed": true,
+  "name": "obj_slope",
   "overriddenProperties": [],
   "parent": {
     "name": "Collision",
@@ -27,6 +27,8 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
+  "resourceType": "GMObject",
+  "resourceVersion": "2.0",
   "solid": false,
   "spriteId": {
     "name": "spr_slope",

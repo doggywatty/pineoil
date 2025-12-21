@@ -14,7 +14,7 @@ function pattern_set_colors(palette_sprite)
 	shader_set_uniform_f(texel_h, texture_get_texel_height(pal_tex))
 }
 
-/*function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1, _rot = 0, _col = c_white, _alpha = 1)
+function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1, _rot = 0, _col = c_white, _alpha = 1)
 {
 	if _pattern_spr == noone
 		exit;
@@ -61,8 +61,8 @@ function pattern_set_colors(palette_sprite)
 		draw_sprite_tiled_ext(_pattern_spr, 0, _x, _y, _xscale, _yscale, _col, _alpha)
 		gpu_set_stencil_enable(false) 
 	}
-}*/
-
+}
+/*
 function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1, _rot = 0, _col = c_white, _alpha = 1)
 {
 	if (_pattern_spr == noone)
@@ -100,7 +100,7 @@ function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1,
 	surface_reset_target();
    
 	draw_surface_ext(pattern_mask_surf, _x - (_xoff * _xscale), _y - (_yoff * _yscale), _xscale, _yscale, _rot, _col, _alpha);
-}
+}*/
 
 function pattern_init()
 {

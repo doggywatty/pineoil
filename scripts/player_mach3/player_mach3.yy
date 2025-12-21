@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "player_mach3",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "Player States",
-    "path": "folders/Scripts/Player States.yy",
+  "$GMScript":"v1",
+  "%Name":"player_mach3",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"player_mach3",
+  "parent":{
+    "name":"Player States",
+    "path":"folders/Scripts/Player States.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

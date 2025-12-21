@@ -1,12 +1,7 @@
 if ds_list_find_index(global.ds_saveroom, id) != -1
 {
-	if (obj_music.lap3)
-	{
-		instance_destroy();
-		exit;
-	}
-	else
-		exit;	
+	instance_destroy();
+	exit;
 }
 
 ini_open(global.savestring)
