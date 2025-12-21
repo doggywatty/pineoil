@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.9586848,
+  "duration":0.9586667,
   "exportDir":"",
   "name":"v_pep_alright_high",
   "parent":{

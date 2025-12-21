@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.409333,
+  "duration":1.4093198,
   "exportDir":"",
   "name":"sfx_menulight",
   "parent":{

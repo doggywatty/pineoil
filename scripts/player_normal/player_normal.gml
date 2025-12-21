@@ -173,17 +173,4 @@ function player_normal()
 	}
 	
 	do_taunt()
-	
-	if input.come.pressed
-	{
-		state = states.comefinished;
-		image_index = 1;
-		sprite_index = spr_player_come;
-		repeat (irandom_range(6, 12))
-		{
-		    var jeql = instance_create(x + (sign(image_xscale) * 16), y + 22, obj_jelq);
-		    jeql.jelq_vsp = -4 + random_range(-2, 2);
-		    jeql.jelq_hsp = (10 * sign(image_xscale)) + random_range(-2, 6);
-		}
-	}
 }

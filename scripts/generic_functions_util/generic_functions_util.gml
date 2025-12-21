@@ -162,10 +162,7 @@ function set_globals()
 		boss_name: "dummy"
 	}
 	
-	if GM_build_type == "run"
-		global.showcollisions = true
-	else
-		global.showcollisions = false
+	global.showcollisions = true
 	global.master_volume = 1
 	global.sfx_volume = 1
 	global.music_volume = 1
@@ -184,7 +181,6 @@ function set_globals()
 		taunt:			"C",
 		superjump:		vk_nokey,
 		groundpound:	vk_nokey,
-		come:			"A",
 		ui_left:		vk_left,
 		ui_right:		vk_right,
 		ui_up:			vk_up,
@@ -302,6 +298,7 @@ function reset_level()
 	}
 	global.combo.wasted = false
 	global.doorshut = false
+	global.secret = false
 	global.level_data = {
 		treasure: false,
 		level_name: "Entrance",
@@ -328,4 +325,5 @@ function quick_ini_write_real(inistr, section, key, value)
 function gpu_set_blendmode_normal_fixed()
 {
 	gpu_set_blendmode_ext_sepalpha(bm_src_alpha, bm_inv_src_alpha, bm_src_alpha, bm_dest_alpha)
+	gpu_set_blendequation_sepalpha(bm_eq_add, bm_eq_max)
 }

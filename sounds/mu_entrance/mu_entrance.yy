@@ -6,11 +6,11 @@
     "path":"audiogroups/ag_music",
   },
   "bitDepth":1,
-  "channelFormat":1,
+  "channelFormat":0,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":189.70703,
+  "duration":216.13133,
   "exportDir":"",
   "name":"mu_entrance",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"mu_entrance.ogg",
+  "sampleRate":44100,
+  "soundFile":"mu_entrance.mp3",
   "volume":1.0,
 }

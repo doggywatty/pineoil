@@ -62,45 +62,6 @@ function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1,
 		gpu_set_stencil_enable(false) 
 	}
 }
-/*
-function pattern_draw(_spr, _ix, _x, _y, _pattern_spr, _xscale = 1, _yscale = 1, _rot = 0, _col = c_white, _alpha = 1)
-{
-	if (_pattern_spr == noone)
-		exit;
-        
-	var _sw = sprite_get_width(_spr);
-	var _sh = sprite_get_height(_spr);
-	var _xoff = sprite_get_xoffset(_spr);
-	var _yoff = sprite_get_yoffset(_spr);
-
-	if (!surface_exists(pattern_mask_surf))
-		pattern_mask_surf = surface_create(_sw, _sh);
-	else if (surface_get_width(pattern_mask_surf) != _sw || surface_get_height(pattern_mask_surf) != _sh)
-		surface_resize(pattern_mask_surf, _sw, _sh);
-        
-	surface_set_target(pattern_mask_surf);
-	draw_clear_alpha(c_black, 0); 
-
-	pattern_set_colors(pal_peppatterncolors);
-	draw_sprite_ext(_spr, _ix, _xoff, _yoff, 1, 1, 0, c_white, 1);
-	shader_reset();
-    
-	gpu_set_blendmode_ext(bm_dest_alpha, bm_zero);
-    
-	var _px = floor(-_x);
-	var _py = floor(-_y);
-	if (_xscale < 0)
-		_px = floor(_x) - _sw + (_xoff * 2);
-	if (_yscale < 0)
-		_py = floor(_y) - _sh + (_yoff * 2);
-
-	draw_sprite_tiled_ext(_pattern_spr, 0, _px, _py, 1, 1, c_white, 1);
-    
-	gpu_set_blendmode(bm_normal);
-	surface_reset_target();
-   
-	draw_surface_ext(pattern_mask_surf, _x - (_xoff * _xscale), _y - (_yoff * _yscale), _xscale, _yscale, _rot, _col, _alpha);
-}*/
 
 function pattern_init()
 {

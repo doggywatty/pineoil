@@ -1,12 +1,12 @@
 {
-  "$GMShader": "",
-  "%Name": "shd_solidcolor",
-  "name": "shd_solidcolor",
-  "parent": {
-    "name": "Shaders",
-    "path": "folders/Shaders.yy",
+  "$GMShader":"",
+  "%Name":"shd_solidcolor",
+  "name":"shd_solidcolor",
+  "parent":{
+    "name":"Shaders",
+    "path":"folders/Shaders.yy",
   },
-  "resourceType": "GMShader",
-  "resourceVersion": "2.0",
-  "type": 1,
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
 }

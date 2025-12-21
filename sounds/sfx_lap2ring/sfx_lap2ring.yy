@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.918667,
+  "duration":5.918685,
   "exportDir":"",
   "name":"sfx_lap2ring",
   "parent":{

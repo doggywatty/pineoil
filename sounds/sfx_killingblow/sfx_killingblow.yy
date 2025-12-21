@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.5906803,
+  "duration":0.59066665,
   "exportDir":"",
   "name":"sfx_killingblow",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"sfx_killingblow.ogg",
-  "volume":1.0,
+  "volume":0.4,
 }

@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_geromedoor",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"t_room","path":"objects/obj_door/obj_door.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"treasure_room",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"propertyId":{"name":"t_room","path":"objects/obj_door/obj_door.yy",},"resource":{"name":"treasure_room","path":"rooms/treasure_room/treasure_room.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"treasure_room",},
   ],
   "parent":{
     "name":"Warps",

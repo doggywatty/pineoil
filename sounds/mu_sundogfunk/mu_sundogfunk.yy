@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":195.2109,
+  "duration":30.33687,
   "exportDir":"",
   "name":"mu_sundogfunk",
   "parent":{

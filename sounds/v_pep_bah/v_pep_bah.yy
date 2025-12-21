@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.1053514,
+  "duration":1.1053333,
   "exportDir":"",
   "name":"v_pep_bah",
   "parent":{

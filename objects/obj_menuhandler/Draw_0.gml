@@ -33,5 +33,4 @@ var options_x = 819;
 var options_y = 84;
 draw_set_alpha(optionsalpha)
 draw_sprite(spr_menupause, 0, options_x, options_y);
-draw_sprite(spr_logo, 0, 160, 384);
 cc_draw_key(options_x - 88, options_y - 37, 27)

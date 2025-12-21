@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.126667,
+  "duration":5.1266665,
   "exportDir":"",
   "name":"mu_timesup",
   "parent":{
