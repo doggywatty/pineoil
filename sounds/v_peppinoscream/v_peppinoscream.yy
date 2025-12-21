@@ -1,0 +1,23 @@
+{
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "v_peppinoscream",
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
+  },
+  "bitDepth": 1,
+  "bitRate": 128,
+  "compression": 2,
+  "conversionMode": 0,
+  "duration": 3.2946713,
+  "parent": {
+    "name": "Voice",
+    "path": "folders/Sounds/Voice.yy",
+  },
+  "preload": false,
+  "sampleRate": 44100,
+  "soundFile": "v_peppinoscream.wav",
+  "type": 1,
+  "volume": 1.0,
+}

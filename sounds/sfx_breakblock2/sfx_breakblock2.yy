@@ -1,0 +1,23 @@
+{
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_breakblock2",
+  "audioGroupId": {
+    "name": "ag_sfx",
+    "path": "audiogroups/ag_sfx",
+  },
+  "bitDepth": 1,
+  "bitRate": 128,
+  "compression": 2,
+  "conversionMode": 0,
+  "duration": 0.7640136,
+  "parent": {
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
+  },
+  "preload": false,
+  "sampleRate": 48000,
+  "soundFile": "sfx_breakblock2.wav",
+  "type": 1,
+  "volume": 1.0,
+}

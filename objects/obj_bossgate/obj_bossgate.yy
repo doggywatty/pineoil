@@ -1,0 +1,57 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bossgate",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Hub",
+    "path": "folders/Objects/Hub.yy",
+  },
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"t_room","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"boss_test","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"t_door","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"a\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"boss_name","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"\"pepperman\"","varType":2,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"door_gate","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bossgate_default","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"door_bg","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bossgate_default_bg","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"scroll_spd","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0.1","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"boss_portrait","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bossportrait_pepperman","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"boss_title","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"spr_bosstitle_pepperman","varType":5,},
+  ],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_bossgate_default",
+    "path": "sprites/spr_bossgate_default/spr_bossgate_default.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

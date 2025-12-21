@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_rattumbleblock_small",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Rats",
+    "path": "folders/Objects/Level Structure/Rats.yy",
+  },
+  "parentObjectId": {
+    "name": "obj_rattumbleblock",
+    "path": "objects/obj_rattumbleblock/obj_rattumbleblock.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "spr_rattumbleblock_small",
+    "path": "sprites/spr_rattumbleblock_small/spr_rattumbleblock_small.yy",
+  },
+  "spriteMaskId": {
+    "name": "spr_rattumbleblock_small",
+    "path": "sprites/spr_rattumbleblock_small/spr_rattumbleblock_small.yy",
+  },
+  "visible": true,
+}

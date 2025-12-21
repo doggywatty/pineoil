@@ -1,0 +1,23 @@
+{
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mu_lap3",
+  "audioGroupId": {
+    "name": "ag_music",
+    "path": "audiogroups/ag_music",
+  },
+  "bitDepth": 1,
+  "bitRate": 128,
+  "compression": 2,
+  "conversionMode": 0,
+  "duration": 194.69933,
+  "parent": {
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
+  },
+  "preload": false,
+  "sampleRate": 48000,
+  "soundFile": "mu_lap3.ogg",
+  "type": 1,
+  "volume": 1.0,
+}
