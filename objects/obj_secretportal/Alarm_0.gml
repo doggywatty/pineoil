@@ -1,1 +1,0 @@
-reset_anim(spr_secretportal_spawnclose)

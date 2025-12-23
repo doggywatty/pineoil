@@ -1,2 +1,0 @@
-collects = []
-maxspeed = 25
