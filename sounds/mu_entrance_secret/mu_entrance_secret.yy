@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":71.489365,
+  "duration":69.84541,
   "exportDir":"",
   "name":"mu_entrance_secret",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mu_entrance_secret.wav",
+  "soundFile":"mu_entrance_secret.ogg",
   "volume":1.0,
 }

@@ -43,5 +43,7 @@ enum states
 	
 	//extras
 	throwing,
-	transition
+	transition,
+	
+	comefinished
 }

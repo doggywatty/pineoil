@@ -1,7 +1,12 @@
 if ds_list_find_index(global.ds_saveroom, id) != -1
 {
-	instance_destroy();
-	exit;
+	if global.level_data.lap3
+	{
+		instance_destroy();
+		exit;
+	}
+	else
+		exit;
 }
 
 ini_open(global.savestring)

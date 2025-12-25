@@ -160,11 +160,15 @@ function set_globals()
 			pineapple: false
 		},
 		lap2: false,
+		lap3: false,
 		tauntcount: 0,
 		boss_name: "dummy"
 	}
 	
-	global.showcollisions = true
+	if GM_build_type == "run"
+		global.showcollisions = true
+	else
+		global.showcollisions = false
 	global.master_volume = 1
 	global.sfx_volume = 1
 	global.music_volume = 1
@@ -181,6 +185,7 @@ function set_globals()
 		jump:			"Z",
 		grab:			"X",
 		taunt:			"C",
+		come:			"A",
 		superjump:		vk_nokey,
 		groundpound:	vk_nokey,
 		ui_left:		vk_left,
@@ -212,9 +217,9 @@ function set_globals()
 		catch(_exception)
 		{
 			show_message("ERROR!\n\nKeybind data is corrupted, input set to defaults.")
-		    show_debug_message(_exception.longMessage);
-		    show_debug_message(_exception.script);
-		    show_debug_message(_exception.stacktrace);
+			show_debug_message(_exception.longMessage);
+			show_debug_message(_exception.script);
+			show_debug_message(_exception.stacktrace);
 		}
 	}
 }
@@ -227,7 +232,7 @@ function bbox_in_camera()
 
 function check_p_rank()
 {
-	return global.level_data.treasure && !global.combo.wasted && global.level_data.lap2 && global.level_data.secret_count >= 3;
+	return global.level_data.treasure && !global.combo.wasted && global.level_data.lap2 && global.level_data.lap3 && global.level_data.secret_count >= 3;
 }
 
 function set_rank_milestones(_s, _a, _b, _c)
@@ -247,13 +252,13 @@ function draw_reset_color(alpha = true)
 		draw_set_alpha(1)
 }
 
-function tile_layer_delete_at(_x, _y)
+function tile_layer_delete_at(_x, _y, kill_bg = false)
 {
 	var layers = layer_get_all()
 	for (var i = 0; i < array_length(layers); i++) 
 	{
 		var cur_layer = layers[i]
-	    if (string_starts_with(layer_get_name(cur_layer), "Tiles"))
+	    if string_starts_with(layer_get_name(cur_layer), "Tiles") && (!string_starts_with(layer_get_name(cur_layer), "Tiles_BG") || kill_bg)
 		{
 			var map_id = layer_tilemap_get_id(cur_layer)
 			tilemap_set_at_pixel(map_id, 0, _x, _y)
@@ -314,9 +319,32 @@ function reset_level()
 			pineapple: false
 		},
 		lap2: false,
+		lap3: false,
 		tauntcount: 0,
 		boss_name: "dummy"
 	}
+	with obj_music
+	{
+		lap2 = false
+		lap2_init = false
+		lap3 = false
+		lap3_init = false
+		if panic_mu != noone
+		{
+			audio_stop_sound(panic_mu)
+			panic_mu = noone
+		}
+		if panic_pinch_mu != noone
+		{
+			audio_stop_sound(panic_pinch_mu)
+			panic_pinch_mu = noone
+		}
+		if prevmu != noone
+		{
+			audio_stop_sound(prevmu)
+			prevmu = noone
+		}
+	}	
 }
 
 function quick_ini_write_real(inistr, section, key, value)

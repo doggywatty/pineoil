@@ -10,8 +10,8 @@ RoomMusic = function(_room, _song, _iscontinuous, _secretmusic = mu_secret, _loo
 
 levelsongs = 
 [
-	new RoomMusic(tower_1, mu_hub, false, mu_secret, 2.1, 153.68),
-	new RoomMusic(entrance_1, mu_entrance, false, mu_entrance_secret, 51.18, 212.58),
+	new RoomMusic(tower_1, mu_hub, false, mu_secret, 2.32, 131.09),
+	new RoomMusic(entrance_1, mu_entrance, false, mu_entrance_secret, 73.95, 183.51),
 	new RoomMusic(test_1, mu_sundogfunk, false, mu_secret),
 	new RoomMusic(boss_test, mu_pepperman, false)
 ]
@@ -51,3 +51,5 @@ panic_music_initiated = false
 pinch_init = false
 lap2 = false
 lap2_init = false
+lap3 = false
+lap3_init = false

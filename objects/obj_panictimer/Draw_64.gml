@@ -73,7 +73,7 @@ draw_set_alpha(1)
 draw_set_align(fa_center, fa_top)
 
 var minutes = 0
-for (var seconds = ceil(global.panic.timer / 12); seconds > 59; seconds -= 60)
+for (var seconds = ceil(global.panic.timer / 25); seconds > 59; seconds -= 60)
 	minutes++
 
 if (seconds < 10)

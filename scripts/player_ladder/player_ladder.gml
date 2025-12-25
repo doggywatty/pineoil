@@ -2,7 +2,7 @@ function player_ladder()
 {
 	var move_v = (-input.up.check + input.down.check)
 	
-	vsp = move_v * 6
+	vsp = move_v * 9
 	
 	if (move_v != 0)
 		sprite_index = vsp <= 0 ? spr_player_laddermove : spr_player_ladderdown

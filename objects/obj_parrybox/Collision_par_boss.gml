@@ -16,7 +16,7 @@ with other
 	var xh = lerp(bbox_left, bbox_right, 0.5)
 	obj_player.xscale = x - xh > 0 ? 1 : -1
 	
-	particle_create(x, y, particles.parry)
+	particle_create(x, y, particles.parry).depth = -100
 }
 
 event_user(0)
