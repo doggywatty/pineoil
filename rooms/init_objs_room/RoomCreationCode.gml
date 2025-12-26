@@ -45,5 +45,6 @@ enum states
 	throwing,
 	transition,
 	
+	come,
 	comefinished
 }

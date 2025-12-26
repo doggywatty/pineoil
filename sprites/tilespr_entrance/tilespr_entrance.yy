@@ -5,21 +5,21 @@
   "bbox_bottom":511,
   "bbox_left":0,
   "bbox_right":638,
-  "bbox_top":4,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"5b975ac2-610b-42d4-a6ec-77cab316755c","name":"5b975ac2-610b-42d4-a6ec-77cab316755c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c1ec1dd7-f67e-448a-95da-409d0e531281","name":"c1ec1dd7-f67e-448a-95da-409d0e531281","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":640,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4c8a2dbe-1e8b-404b-b793-e146514adfbf","blendMode":0,"displayName":"default","isLocked":false,"name":"4c8a2dbe-1e8b-404b-b793-e146514adfbf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cf4eb954-9d7e-42c5-a3b8-5e5c4ff6581e","blendMode":0,"displayName":"default","isLocked":false,"name":"cf4eb954-9d7e-42c5-a3b8-5e5c4ff6581e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"tilespr_entrance",
   "nineSlice":null,
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5b975ac2-610b-42d4-a6ec-77cab316755c","path":"sprites/tilespr_entrance/tilespr_entrance.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"55dc8b61-1e11-46cd-a1ce-47279b19f117","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c1ec1dd7-f67e-448a-95da-409d0e531281","path":"sprites/tilespr_entrance/tilespr_entrance.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c56267d3-fce7-4061-9844-dd3b85ce23b1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

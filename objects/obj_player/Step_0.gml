@@ -150,6 +150,9 @@ if hitstun < 0
 		case states.comefinished:
 			player_comefinished()
 			break;
+		case states.come:
+			player_come()
+			break;
 	}
 }
 else if hitstun >= 0
@@ -241,25 +244,7 @@ struct_foreach(aftimg_timers, function(_name, _data)
 if ladderbuffer > 0
 	ladderbuffer--
 
-if (input.come.pressed)
-{
-	state = states.comefinished;
-	sprite_index = spr_player_come;
-	image_index = 1;
-	var count = irandom_range(6, 12);
-	var dir = sign(xscale);
-	for (var i = 0; i < count; i++)
-	{
-		var ox = x + (dir * 16);
-		var oy = y;
-		var jeql = instance_create(ox, oy, obj_jelq);
-		jeql.jelq_vsp = -4 + random_range(-2, 2);
-		jeql.jelq_hsp = (10 * dir) + random_range(-2, 6);
-	}
-}
-
 var spd = 0.05
-
 if secret_cutscene
 	visual_size = max(visual_size - spd, 0)
 else

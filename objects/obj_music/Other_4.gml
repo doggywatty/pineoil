@@ -79,7 +79,7 @@ else
 			pillar_mu = scr_sound(mu_pillar, true)
 			audio_sound_loop_start(pillar_mu, 0.00)
 			audio_sound_loop_end(pillar_mu, 38.64)			
-			audio_sound_gain(pillar_mu, 0, 500)
+			audio_sound_gain(pillar_mu, 0, 0)
 		}
 	}
 }

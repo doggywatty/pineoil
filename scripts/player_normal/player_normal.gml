@@ -135,6 +135,9 @@ function player_normal()
 		breakdance_secret.spd = 0.25
 	}
 	
+	if (input.come.pressed)
+		state = states.come;
+	
 	if (input.down.check || !scr_can_uncrouch())
 	{
 		reset_anim(!has_shotgun ? spr_player_crouchdown : spr_player_shotgun_crouchstart)

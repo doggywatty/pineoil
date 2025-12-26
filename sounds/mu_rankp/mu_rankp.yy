@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":14.654354,
+  "duration":12.927896,
   "exportDir":"",
   "name":"mu_rankp",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mu_rankp.wav",
+  "soundFile":"mu_rankp.ogg",
   "volume":1.0,
 }
