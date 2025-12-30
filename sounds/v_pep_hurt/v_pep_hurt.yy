@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.156,
+  "duration":1.3258958,
   "exportDir":"",
   "name":"v_pep_hurt",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"v_pep_hurt.wav",
+  "soundFile":"v_pep_hurt.ogg",
   "volume":1.0,
 }

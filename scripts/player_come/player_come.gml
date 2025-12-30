@@ -1,5 +1,6 @@
 function player_come()
 {
+	move = p_move;
 	state = states.comefinished;
 	image_index = 1;
 	sprite_index = spr_player_come;

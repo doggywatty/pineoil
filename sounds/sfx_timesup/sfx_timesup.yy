@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.893424,
+  "duration":4.893417,
   "exportDir":"",
   "name":"sfx_timesup",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.757551,
+  "duration":0.7574583,
   "exportDir":"",
   "name":"sfx_breakdance",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"sfx_breakdance.ogg",
-  "volume":0.8,
+  "volume":1.0,
 }

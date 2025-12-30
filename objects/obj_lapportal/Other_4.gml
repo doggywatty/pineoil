@@ -1,13 +1,5 @@
 if ds_list_find_index(global.ds_saveroom, id) != -1
-{
-	if global.level_data.lap3
-	{
-		instance_destroy();
-		exit;
-	}
-	else
-		exit;
-}
+	exit;
 
 ini_open(global.savestring)
 if ini_read_real(global.level_data.level_name, "score", 0) == 0

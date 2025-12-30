@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8573469,
+  "duration":13.534333,
   "exportDir":"",
   "name":"sfx_beatbox",
   "parent":{
@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"sfx_beatbox.ogg",
-  "volume":0.6,
+  "volume":1.0,
 }

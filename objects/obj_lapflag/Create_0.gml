@@ -1,5 +1,5 @@
 if global.level_data.lap3
-	sprite_index = spr_lapflag2
+	sprite_index = spr_lapflag3
 else
 	sprite_index = sprite_index;
 y = -sprite_height

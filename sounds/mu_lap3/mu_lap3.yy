@@ -2,15 +2,15 @@
   "$GMSound":"v2",
   "%Name":"mu_lap3",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"ag_music",
+    "path":"audiogroups/ag_music",
   },
   "bitDepth":1,
   "channelFormat":1,
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":194.69934,
+  "duration":259.692,
   "exportDir":"",
   "name":"mu_lap3",
   "parent":{

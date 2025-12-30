@@ -13,7 +13,7 @@ else
 {
 	draw_self()
 	if global.level_data.lap2
-		draw_sprite(spr_lap3warning, 0, x, y + wave(-5, 5, 0.5, 5))
+		draw_sprite(spr_lappluswarning, 0, x, y + wave(-5, 5, 0.5, 5))
 	else
 		draw_sprite(spr_lap2warning, 0, x, y + wave(-5, 5, 0.5, 5))
 }

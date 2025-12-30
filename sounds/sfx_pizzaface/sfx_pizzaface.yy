@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.029524,
+  "duration":2.8660834,
   "exportDir":"",
   "name":"sfx_pizzaface",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"sfx_pizzaface.wav",
+  "soundFile":"sfx_pizzaface.ogg",
   "volume":1.0,
 }

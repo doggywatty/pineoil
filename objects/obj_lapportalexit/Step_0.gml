@@ -10,3 +10,6 @@ with obj_player
 	vsp = 0
 	movespeed = 0
 }
+
+with obj_panictimer
+	global.panic.timer += 10;
